@@ -10,7 +10,7 @@ import time,datetime
 import re
 
 class BuyerManager:
-    dict_mid_data={}# 维护的一个{map客户id:[第几次下单，上次日期时间]}
+    dict_mid_data={}# 维护的一个 map{客户id:[第几次下单，上次日期时间]}
     
     # 获取对应行数据的订单时间
     def getDatetime(self,row_value):
